@@ -3,9 +3,12 @@ body{
 }
 
 
-div{
+
+.box{
     display:flex;
-    justify-content: center;
+    justify-content: center; 
+   
+    
 }
 
 h1{
@@ -13,15 +16,43 @@ h1{
 }
 
 input{
-    padding: 1vh 90vh 1vh 2vh;
+    height:4vh;
+    width: 70vh;
+   
 }
 
 button{
-    height:6vh;
-    width:6vh;
+    height:3vh;
+    width:3vh;
     background-color: rgb(176, 176, 255);
     border:solid .5px rgb(176, 176, 255);
     border-radius: 20%;
-    font-size: 4vh;
+    font-size: 2vh;
     margin: .5vh
+}
+
+.text{
+    background-color: rgb(229, 203, 255);
+    font-size: 3vh; 
+    width: 48vh;
+    display: inline;
+}
+
+.finish{
+    padding:1vh 8vh 3vh 2vh ;
+    font-size: 2vh;
+    margin: 3vh 0vh 0vh 1vh ;
+    background-color: greenyellow;
+}
+
+.delete{
+    padding:1vh 8vh 3vh 2vh ;
+    font-size: 2vh;
+    margin: 3vh 0vh 0vh 1vh;
+    background-color: hotpink;
+}
+
+.entry{
+    display: flex;
+    justify-content: center;
 }
